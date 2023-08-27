@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="backend_pos">
+    <output-path>$PROJECT_DIR$/out/artifacts/backend_pos</output-path>
+    <root id="archive" name="backend_pos.war">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Back_End" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Java EE 6-Java EE 6" />
+          <element id="library" level="project" name="json" />
+          <element id="file-copy" path="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
